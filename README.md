@@ -28,6 +28,8 @@ Open [`prototype/calispot-standalone.html`](prototype/calispot-standalone.html) 
 
 The prototype is a large bundled HTML file. The screenshots above give a quick visual overview without opening it.
 
+**Live demo:** https://danino99.github.io/calispot-product-prototype/ (served through GitHub Pages).
+
 ## Product concept
 
 Calispot is a map-first social product for the street-calisthenics community, starting with a concept for Buenos Aires. The core loop connects nearby spot discovery with in-person training, session logging, achievements, and community activity. My primary MVP hypothesis is that seeing useful activity and progress can give athletes a reason to return the next day.
