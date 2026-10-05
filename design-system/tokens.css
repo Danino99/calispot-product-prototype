@@ -1,0 +1,30 @@
+/* Calispot semantic tokens — later design-system exploration. */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&family=Caveat:wght@500;700&display=swap");
+
+:root {
+  color-scheme: dark;
+
+  --bg-base: #1A1C18;
+  --bg-surface: #252822;
+  --bg-elevated: #30332B;
+  --text-primary: #F4F4EF;
+  --text-secondary: #8A8D80;
+  --border: #3A3D33;
+  --accent: #B8D54C;
+  --accent-ink: #1A1C18;
+  --alert: #E0531F;
+
+  --font-display: "Anton", Impact, sans-serif;
+  --font-ui: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-alias: "Caveat", cursive;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+}
