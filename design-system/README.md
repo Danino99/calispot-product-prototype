@@ -1,10 +1,10 @@
-# Calispot design system reference
+# Calispot design system
 
-This directory contains a concise, portfolio-safe snapshot of the later Calispot visual specification. The CSS tokens are a practical reference for the documented design direction, not a complete production component library.
+A concise reference for the visual system I specified for Calispot. The CSS tokens document the intended design direction, not a complete production component library.
 
 ## Design intent
 
-Calispot is designed for outdoor training contexts: bright light, physical fatigue, sweaty hands, and brief glances between sets. The visual direction combines a dark asphalt-like base, bone-white text, a lime accent, assertive display typography, and restrained industrial details.
+I designed Calispot for outdoor training contexts: bright light, physical fatigue, sweaty hands, and brief glances between sets. The visual direction combines a dark asphalt-like base, bone-white text, a lime accent, assertive display typography, and restrained industrial details.
 
 ## Principles
 
@@ -17,7 +17,7 @@ Calispot is designed for outdoor training contexts: bright light, physical fatig
 
 ## Semantic tokens
 
-The default documented mode is dark. An alternate light palette is exploratory and is not treated as an MVP requirement.
+The default documented mode is dark. I explored an alternate light palette but did not treat it as an MVP requirement.
 
 | Token | Value | Intended role |
 |---|---|---|
@@ -43,7 +43,7 @@ The default documented mode is dark. An alternate light palette is exploratory a
 
 ## Relationship to the interactive prototype
 
-The standalone prototype in `../prototype/` uses an earlier typographic direction. This reference documents a later design iteration and does not imply that all prototype screens were updated to these tokens.
+The standalone prototype in `../prototype/` uses an earlier typographic direction. This reference documents a later design iteration and does not imply that I updated every prototype screen to these tokens.
 
 ## Assets
 

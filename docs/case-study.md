@@ -2,15 +2,15 @@
 
 ## Overview
 
-Calispot is a product concept for helping street-calisthenics athletes discover public training spots and connect those places to local training activity. The initial concept focuses on Buenos Aires and treats the map as the product's main entry point.
+Calispot is a product concept I designed to help street-calisthenics athletes discover public training spots and connect those places to local training activity. The initial concept focuses on Buenos Aires and treats the map as the product's main entry point.
 
-This is a product and UI prototype, not a launched service. The concept and initial direction are Daniel's; AI tools, including Claude Design, assisted with UI exploration and prototype implementation.
+It is a product and UI prototype, not a launched service. I defined the concept and direction, and used AI design tools (including Claude Design) to explore and implement the UI prototype.
 
 ## Problem framing
 
-The concept starts from the hypothesis that useful information about outdoor bars, equipment, spot conditions, and who is training is often shared informally. Someone looking for a place to train may need to ask around or visit a spot without knowing what to expect.
+I started from the hypothesis that useful information about outdoor bars, equipment, spot conditions, and who is training is often shared informally. Someone looking for a place to train may need to ask around or visit a spot without knowing what to expect.
 
-Calispot explores whether a community-maintained, location-based product could make that information easier to discover. This problem framing has not been validated through a documented research study; it should be treated as a product hypothesis.
+Calispot explores whether a community-maintained, location-based product could make that information easier to discover. I have not validated this problem framing through a documented research study; it should be treated as a product hypothesis.
 
 ## Intended users and value proposition
 
@@ -20,9 +20,9 @@ Calispot explores whether a community-maintained, location-based product could m
 
 ## Product objective and retention hypothesis
 
-The MVP concept is organized around one behavioral question: after finding a useful spot and training there, is there a meaningful reason to return the next day?
+I organized the MVP concept around one behavioral question: after finding a useful spot and training there, is there a meaningful reason to return the next day?
 
-The proposed loop connects location discovery to an in-person session, then makes participation and progress visible through session history, spot-specific quests, skill badges, and a community feed. Next-day retention is the intended product metric, not a result measured by this prototype.
+The loop I designed connects location discovery to an in-person session, then makes participation and progress visible through session history, spot-specific quests, skill badges, and a community feed. Next-day retention is the intended product metric, not a result measured by this prototype.
 
 ```mermaid
 flowchart TD
@@ -40,37 +40,37 @@ flowchart TD
 
 ### Map-first, low-friction entry
 
-Basic spot discovery is intended to work before registration. A registration prompt appears when someone tries a social feature, rather than blocking the first map view.
+I designed basic spot discovery to work before registration. A registration prompt appears when someone tries a social feature, rather than blocking the first map view.
 
 ### Real places anchor the social layer
 
-Spots are more than map pins: the concept associates equipment, recent activity, public routines, and location-specific challenges with each place. This keeps community activity grounded in where people train.
+Spots are more than map pins: I associated equipment, recent activity, public routines, and location-specific challenges with each place. This keeps community activity grounded in where people train.
 
 ### Progress emerges from participation
 
-The proposed skill radar is built from earned skill badges rather than an upfront level test. Session logging and quests are intended to support visible progress without turning the product into a routine generator.
+I built the skill radar from earned skill badges rather than an upfront level test. Session logging and quests are meant to support visible progress without turning the product into a routine generator.
 
 ### Scope follows the retention hypothesis
 
-The concept prioritizes map discovery, check-in and session logging, spot routines, profile/radar, achievements, and a feed. Advanced discovery, scheduled sessions, following, Coach roles, and monetization are later-phase ideas, not implemented features.
+I prioritized map discovery, check-in and session logging, spot routines, profile/radar, achievements, and a feed. Advanced discovery, scheduled sessions, following, Coach roles, and monetization are later-phase ideas, not implemented features.
 
 ## Experience and design direction
 
-The product is intended for use outdoors, between sets, in direct sunlight, and with limited attention. The design direction therefore emphasizes strong contrast, clear hierarchy, concise interface copy, large touch targets, and a touch-first interaction model. The later design-system specification records these principles and semantic tokens.
+The product is meant to be used outdoors, between sets, in direct sunlight, and with limited attention. I therefore emphasized strong contrast, clear hierarchy, concise interface copy, large touch targets, and a touch-first interaction model. The later design-system specification records these principles and semantic tokens.
 
 ## Prototype coverage
 
-The standalone interactive prototype explores a splash/onboarding entry, map, spot detail, training launcher, session log, feed, quests, and profile/radar. It uses illustrative UI content and is navigable locally in a browser.
+The standalone interactive prototype covers a splash/onboarding entry, map, spot detail, training launcher, session log, feed, quests, and profile/radar. It uses illustrative UI content and is navigable locally in a browser.
 
-The prototype is an earlier iteration than the later design-system specification: its type treatment differs, and its onboarding flow includes a level test that a later product decision dropped in favor of starting the skill radar empty. The repository documents these differences instead of presenting the prototype as a finished implementation of the final product direction or token set.
+The prototype is an earlier iteration than the later design-system specification: its type treatment differs, and its onboarding flow includes a level test that I later dropped in favor of starting the skill radar empty. I document these differences instead of presenting the prototype as a finished implementation of the final product direction or token set.
 
 ## Status and limitations
 
-- Product concept, flows, visual explorations, and a standalone UI prototype are present.
+- The product concept, flows, visual explorations, and a standalone UI prototype are present.
 - No production mobile application, backend, authentication, live GPS, push delivery, or payment integration is included.
-- No documented user study, launch, user growth, retention result, or commercial outcome is claimed.
-- The MVP scope and retention loop remain hypotheses to validate with local athletes.
+- I make no claim of a documented user study, launch, user growth, retention result, or commercial outcome.
+- The MVP scope and retention loop remain hypotheses I want to validate with local athletes.
 
-## AI assistance
+## How I built it
 
-Daniel developed the product concept and initial direction. Claude Design and other AI assistance were used to generate and iterate on parts of the UI prototype. The repository does not present AI-generated UI as validated user research or production code.
+I directed the product concept, scope, and design decisions. I used AI design tools (including Claude Design) to explore the UI and generate parts of the prototype, and I treated the result as a design exploration rather than validated user research or production code.
